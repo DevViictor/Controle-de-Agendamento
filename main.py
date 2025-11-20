@@ -19,7 +19,7 @@ client = gspread.authorize(creds)
 
 pagina = client.open_by_key(planilha_chave).worksheet("dados")
 
-st.set_page_config(page_title= "Acompanhamento das Fibras" ,page_icon = "🌐" , layout= "wide")
+st.set_page_config(page_title= " 🌐 Acompanhamento das Fibras" ,page_icon = "🌐" , layout= "wide")
 
 lojas = [" ","LOJA IGUATEMI | BA" , "LOJA IGUATEMI || BA"]
 
