@@ -33,8 +33,7 @@ with st.form("Cadastro"):
     data = st.date_input("Data do agendamento: " ,key="data")
     hora = st.time_input("Hora de instalação: ",key="hora")
     email = st.text_input("Email do consultor: ",key="email")
-    menssagem = st.text_input("Menssagem de lembrete para o consultor: ",key="lembrete")
-
+    
     enviar = st.form_submit_button("Cadastrar")
 
 if enviar:
@@ -46,6 +45,5 @@ if enviar:
         str(data),
         str(hora),
         email,
-        menssagem
     ])
     st.success("Agendamento realizado com sucesso!")
