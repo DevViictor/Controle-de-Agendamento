@@ -52,6 +52,5 @@ if enviar:
         data.strftime("%d/%m/%Y"),   
         hora.strftime("%H:%M"), 
         email,
-        emailcl,
     ])
     st.success("Agendamento realizado com sucesso!")
