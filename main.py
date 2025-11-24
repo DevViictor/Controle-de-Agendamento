@@ -33,7 +33,7 @@ emalis =["","anapsantos@telefonica.com","anderson.scosta@telefonca.com",
 emailgl = ["","max.silveira@telefonica.com"]
 
 with st.form("Cadastro"):
-    st.header("🌐 Agendamento de Fibra")
+    st.header("🌐 Agendamento da Fibra")
     Loja = st.selectbox("Loja:",lojas)
     nome = st.selectbox("Nome do consultor: ",consultores)
     ordem = st.text_input("SDR FIXA: ")
